@@ -1,0 +1,6 @@
+services:
+  - type: web
+    runtime: static
+    name: snow-trip-planner
+    buildCommand: "true"
+    staticPublishPath: public
